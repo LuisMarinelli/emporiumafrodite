@@ -1,0 +1,15 @@
+CORES:
+
+PALETA 1:
+azul ciâno:	#75e0d0
+azul claro:	#bde4df
+lilás:		#a081bd
+roxo inter:	#6f439c
+roxo escuro:	#81007f
+
+PALETA 2:
+roxo beringela: #421035
+roxo claro:	#8c2d65
+lilás:		#b891c0
+azul claro:	#acd2f7
+azul turquise:	#7587d9
