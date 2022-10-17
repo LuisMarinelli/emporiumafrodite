@@ -9,17 +9,18 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  /*font-family: "Open Sans", sans-serif;*/
+  font-family:'EB Garamond', serif;
   color: #313030;
 }
 
 a {
-  color: #ff5821;
+  color: #a081bd;
   text-decoration: none;
 }
 
 a:hover {
-  color: #ff7e54;
+  color: #6f439c;
   text-decoration: none;
 }
 
@@ -29,7 +30,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
+  font-family:'EB Garamond', serif;
 }
 
 /*--------------------------------------------------------------
@@ -156,11 +158,16 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# contorno-pontilhado
+# CONTORNOS
 --------------------------------------------------------------*/
-
 #contorno{
     border: 2px dotted #fff;   
+}
+
+#contorno2{
+  border: 1px solid #fff;   
+  height: 60px;
+  padding: 12px;
 }
 
 /*--------------------------------------------------------------
@@ -340,7 +347,7 @@ section {
 }
 
 .section-bg {
-  background-color: #75e0d0;
+  background-color: #a081bd;
 }
 
 .section-title {
@@ -363,32 +370,32 @@ section {
 
 
 /*--------------------------------------------------------------
-# Why Us
+# DESCUBRA
 --------------------------------------------------------------*/
-.why-us {
+.descubra {
   padding: 0 0 30px 0;
   position: relative;
   z-index: 3;
 }
 
-.why-us .content {
+.descubra .content {
   padding: 30px;
   background: #6f439c;
   border-radius: 4px;
   color: #fff;
 }
 
-.why-us .content h3 {
+.descubra .content h3 {
   font-weight: 700;
   font-size: 34px;
   margin-bottom: 30px;
 }
 
-.why-us .content p {
+.descubra .content p {
   margin-bottom: 30px;
 }
 
-.why-us .icon-boxes .icon-box {
+.descubra .icon-boxes .icon-box {
   text-align: center;
   border-radius: 10px;
   background: #fff;
@@ -398,24 +405,24 @@ section {
   margin-bottom: 50px;
 }
 
-.why-us .icon-boxes .icon-box i {
+.descubra .icon-boxes .icon-box i {
   font-size: 40px;
   color: #a081bd;
   margin-bottom: 30px;
 }
 
-.why-us .icon-boxes .icon-box h4 {
+.descubra .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 30px 0;
 }
 
-.why-us .icon-boxes .icon-box p {
+.descubra .icon-boxes .icon-box p {
   font-size: 15px;
   color: #716f6f;
 }
 
-.why-us .content .more-btn {
+.descubra .content .more-btn {
   display: inline-block;
   background: #25D366;
   padding: 6px 30px 8px 30px;
@@ -424,47 +431,48 @@ section {
   transition: all ease-in-out 0.4s;
 }
 
-.why-us .content .more-btn i {
+.descubra .content .more-btn i {
   font-size: 16px;
   font-weight: bolder;
 }
 
-.why-us .content .more-btn:hover {
+.descubra .content .more-btn:hover {
   background: #128C7E;
 }
+
 /*--------------------------------------------------------------
-# About
+# BELEZA
 --------------------------------------------------------------*/
-.about .icon-boxes h4 {
+.beleza .icon-boxes h4 {
   font-size: 18px;
   color: #7f6d68;
   margin-bottom: 15px;
 }
 
-.about .icon-boxes h3 {
+.beleza .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
   color: #554945;
   margin-bottom: 15px;
 }
 
-.about .icon-box {
+.beleza .icon-box {
   margin-top: 40px;
 }
 
-.about .icon-box .title {
+.beleza .icon-box .title {
   margin-left: 85px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
 }
 
-.about .icon-box .title a {
+.beleza .icon-box .title a {
   color: #343a40;
   transition: 0.3s;
 }
 
-.about .video-box {
+.beleza .video-box {
   background-size: cover;
   height: 500px;
 }
@@ -475,9 +483,36 @@ section {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.6);
 }
 
+/*--------------------------------------------------------------
+# SEGREDO
+--------------------------------------------------------------*/
+.segredo .section-title h3{
+  font-size: 34px;
+  color: #ffffff;
+}
+
+.segredo .icon-boxes h4 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.segredo .icon-boxes p {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.segredo .video-box {
+  background-size: cover;
+  height: 500px;
+}
+
 #img-formula{
   height: 360px;
   width: 500px;
+  border-radius: 4px;
 }
 
 #linha{
@@ -486,6 +521,23 @@ section {
 
 #linha p{
   margin-top: -150px;
+}
+
+/*--------------------------------------------------------------
+# GARANTIA
+--------------------------------------------------------------*/
+.garantia .info-box {
+  color: #313030;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px;
+}
+
+
+.garantia .info-box h3 {
+  font-size: 20px;
+  color: #656262;
+  font-weight: 700;
+  margin: 10px 0 10px 68px;
 }
 
 /*--------------------------------------------------------------
@@ -514,8 +566,8 @@ section {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  width: 72px;
-  height: 72px;
+  width: 80px;
+  height: 80px;
   background: #bde4df;
 }
 
@@ -557,6 +609,16 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio h2{
+  font-family:'EB Garamond', serif;
+  font-size: 34px;
+}
+
+.portfolio p{
+  font-family:'EB Garamond', serif;
+  font-size: 20px;
+}
+
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 35px auto;
@@ -677,6 +739,18 @@ section {
   overflow: hidden;
 }
 
+.pricing .section-title h2{
+  font-family:'EB Garamond', serif;
+  font-size: 34px;
+  color: #fff;
+}
+
+.pricing .section-title p{
+  font-family:'EB Garamond', serif;
+  font-size: 22px;
+  color: #fff;
+}
+
 .pricing h3 {
   font-weight: 400;
   margin: -20px -20px 20px -20px;
@@ -688,9 +762,9 @@ section {
 }
 
 .pricing h4 {
-  font-size: 36px;
+  font-size: 40px;
   color: #81007f;
-  font-weight: 600;
+  font-weight: bolder;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
@@ -735,7 +809,7 @@ section {
 
 .pricing .featured h3 {
   color: #fff;
-  background: #a081bd;
+  background: #6f439c;
   box-shadow: 0 3px 7px rgba(243, 150, 252, 0.4);
 }
 
@@ -748,7 +822,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #a081bd;
+  background: #6f439c;
   color: #fff;
 }
 
@@ -758,6 +832,17 @@ section {
 .faq .faq-list {
   padding: 0 100px;
 }
+
+.faq .section-title h2{
+  font-family:'EB Garamond', serif;
+  font-size: 34px; 
+}
+
+.pricing .section-title p{
+  font-family:'EB Garamond', serif;
+  font-size: 22px;
+}
+
 
 .faq .faq-list ul {
   padding: 0;
@@ -838,11 +923,22 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #313030;
+  color: #ffffff;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px;
 }
 
+.contact .section-title h2{
+  font-family:'EB Garamond', serif;
+  font-size: 34px; 
+  color: #ffffff;
+}
+
+.contact .section-title p{
+  font-family:'EB Garamond', serif;
+  font-size: 22px;
+  color: #ffffff;
+}
 
 .contact .info-box h3 {
   font-size: 20px;
